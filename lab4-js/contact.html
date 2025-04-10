@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mulungushi River Resort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MULUNGUSHI RIVER RESORT</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-header">
+            <div class="header-content">
+                <h1>Contact Us</h1>
+                <p>Get in touch with our team for any inquiries or booking</p>
+            </div>
+        </section>
+
+        <div class="contact-form">
+            <form id="contactForm" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="emailInput" name="email" required placeholder="Your email address">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required placeholder="Subject of your message">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Your message here..." rows="5"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div id="response" class="response-message"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MRR. All rights reserved.</p>
+    </footer>
+    <script src="script.js" defer></script> 
+</body>
+</html>
